@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<link rel="stylesheet" href="style.css" >
+</head>
+<body>
+
+
+    <div class="add">   
+        <h1>Sube tu archivo</h1>
+        <input type="file" id="Archivo">
+        <select name="Opcion Archivo" id="Opcion">
+            <option value="PDF">PDF</option>
+            <option value="TXT">TXT</option>
+            
+        </select>
+
+        
+
+        <select name="Explicacion facil" id="F">
+        
+            <option value="facil">Explicación fácil</option>
+            
+            <option value="clave">Palabras clave</option>
+            
+            <option value="completo">Resumen completo</option>
+            
+        </select>
+        
+       
+    </div>
+    <div class="add2">
+        <p class="agregar" >Agregue algo al promp (opcional) <p>
+        <textarea name="Ingrese un textro " class="txtbx" id="addpromp"></textarea>
+        <button>
+            Listo!
+        </button>
+    </div>
+
+
+<button id="Listo">Resumelo</button>
+<h1 class="resu"> Resultado:
+
+</h1>
+    <div id="Resultado2" class="es">
+        <p id="Resultado" > gola</p>
+
+    </div>
+
+
+
+
+
+
+
+
+    
+<script src="back.js"></script>
+</body>
+</html>
